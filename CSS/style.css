@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    height: 50px;   
+}
+
+.container-main-top{
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.colo-bg-top-main{
+    background-color: rgb(116, 167, 214);
+    height: 600px;
+    margin: 0 auto;
+}
+
+.container-main{
+    height: 5000px;
+    width: 800px;
+    background-color: bisque;
+    margin: 0 auto;
+    
+    
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-40{
+    width: 40%;
+    height: 400px;
+    text-align:left;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.col-60{
+    width: 60%;
+    height: 400px;
+    align-content: left;
+}
+
+.col-50{
+    width: calc(100%/2);
+    height: 25px;
+    margin-top: 10px;
+    color: wheat;
+}
+
+.col-900-100{
+    width: 900px;
+    height: 200px;
+    
+}
+
+.col-h2{
+    font-size: 40px;
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.bottoni-main{
+    background-color: aquamarine;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    text-align:left ;
+}
+
+.checkbox-m{
+    padding-top: 10px;
+}
+.Fatturazione-Mensile{
+    margin-right: 20px;
+}
+
+
+
+.col-33{
+    width: calc(100%/3);
+    height: 700px;
+    background-color: black;
+    padding: 5px auto;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.col-enterprise{
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+.col-partner{
+    width: 70%;
+    height: 300px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.col-partner-1{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(68, 67, 67);
+    margin-top: 20px;
+}
+
+.col-business-name{
+    background-color: black;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+.col-business-1{
+    background-color: black;
+    width: calc(100%/3);
+    height: 200px;
+    margin-top: 20px;
+}
+
+.col-business-2{
+    background-color: black;
+    width: calc(100%/3);
+    height: 200px;
+    margin-top: 20px;
+}
+
+.col-business-3{
+    background-color: black;
+    width: calc(100%/3);
+    height: 200px;
+    margin-top: 20px;
+}
+
+.col-business-4{
+    background-color: black;
+    width: calc(100%/3);
+    height: 200px;
+    margin-top: 20px;
+}
+
+.col-business-5{
+    background-color: black;
+    width: calc(100%/3);
+    height: 200px;
+    margin-top: 20px;
+}
+
+.col-business-6{
+    background-color: black;
+    width: calc(100%/3);
+    height: 200px;
+    margin-top: 20px;
+}
+
+.bottom-text-business{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.li-block{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+   
+
+.txt-r{
+    text-align: right;
+}
+
+.txt-align{
+    text-align: left;
+    
+}
+
+.ul-unstyled li{
+    list-style-type: none;
+}
+
+
+/* Decorazioni */
+
+.text-white{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.bg-blu{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.freccia-giu{
+    margin-top: 20px;
+    
+}
+
+.jumbo-img{
+    position: relative;
+  width: 645px;
+  height: 430px;
+  top: 0px;
+  left: -20px;
+}
+
+h1{
+    font-size: 70px;
+    text-align: left;
+}
+
+.fs-45{
+    font-size: 45px;
+    margin-top: 40px;
+}
+
+
+.br-5{
+    border-right: 10px solid white;
+}
+
+.bl-5{
+    border-left: 10px solid white;
+}
+ 
